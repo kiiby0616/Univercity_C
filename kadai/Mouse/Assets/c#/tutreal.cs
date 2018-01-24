@@ -167,7 +167,7 @@ public class tutreal : MonoBehaviour {
 		}
 		anim.SetBool ("miss", miss);
 		if (miss == true) {
-			if (Input.GetMouseButtonDown (0)) {
+			if (Input.GetMouseButtonDown (0)&& end != true) {
 				SceneManager.LoadScene (2);
 			}
 
